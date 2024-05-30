@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-banner {
+  background-image: url("../assets/hero-bg.png");
+  background-color: #0e1d34;
+  background-size: cover;
+  background-position: center;
+}
+
+.outer_container {
+  max-width: 1200px;
+}
+
+.navbar-container {
+  background: #0e1d34;
+}
+
+.nav-colored {
+  background: #0e1d34d1;
+}
+
+.nav-transparent {
+  background: #0e1d34;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav a:hover {
+  color: white !important;
+}
+
+.nav-item > a {
+  color: #6a7381;
+  font-size: 16px;
+}
+
+.nav-item > a :hover,
+.active {
+  color: #fff !important;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero-description > h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero-description > p {
+  font-size: 15px;
+  color: #d0d0cf;
+}
+
+.hero-image > img {
+  height: 400px;
+  width: 100%;
+}
+
+form > div > input {
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+.stats > span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.stats > hr {
+  opacity: 1;
+  border: 2px solid #1144fd;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services {
+  background-color: #fff;
+}
+
+.services i {
+  color: #001f8d;
+  font-size: 48px;
+}
+
+.search-btn {
+  bottom: 8px;
+  right: 10px;
+}
+
+.about-heading {
+  color: #001f8d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about-bold > h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #19335c;
+}
+
+.icon-container {
+  color: #0d42ff;
+}
+
+.about-img > img {
+  height: 400px;
+  width: 100%;
+}
+
+.service-section {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.service-section h2,
+.pricing h2,
+.faq h2 {
+  color: #001973;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.service-section > hr,
+.pricing > hr,
+.faq > hr {
+  opacity: 1;
+  border: 2px solid #1144fd;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.play-btn {
+  left: 50%;
+  bottom: 50%;
+}
+
+.cta {
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),
+    url("../assets/cta-bg.jpg");
+  background-attachment: fixed;
+}
+
+.cta > h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta > p {
+  font-size: 18px;
+}
+.cta > button:hover {
+  background-color: #0d42ff;
+  border: 1px solid #0d42ff !important;
+  color: #fff;
+}
+
+.feature-item > h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #001973 !important;
+}
+
+.feature-item > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item > ul > li > i {
+  color: #0d42ff;
+  font-size: 20px;
+}
+
+.pricing li i {
+  color: #059652;
+  font-size: 24px;
+}
+
+.cross-icon {
+  color: gray !important;
+}
+
+.buy-btn {
+  border: 1px solid #0d42ff !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top-btn {
+  position: fixed;
+  right: 15px !important;
+  bottom: 10px !important;
+}
+
+.question-icon {
+  color: #0d42ff;
+}
+
+.accordion-item {
+  border: none !important;
+  margin-bottom: 10px !important;
+  background-color: #f7f8f9;
+}
+
+.accordion-button {
+  background-color: #f7f8f9;
+}
+
+footer {
+  background-color: #0e1d34;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 8px 10px;
+}
+
+.social-links i:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.useful-link > h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.useful-anchor a {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.useful-anchor a:hover {
+  color: white;
+}
+
+.scroll-top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.carousel-bg {
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),
+    url("../assets/testimonials-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service-img {
+  transition: 0.3s ease-in-out;
+}
+.service-card:hover .service-img{
+  transform: scale(1.2);
+}
+
+.service-card{
+  cursor: pointer;
+}
+
+.service-title {
+  color: #001973;
+}
+
+.service-card:hover .service-title {
+  color: rgba(13, 110, 253, 1);
+}
+
+.service-desc {
+  color: #0e1d34;
+  font-size: 15px;
+  font-weight: normal;
+}
+
